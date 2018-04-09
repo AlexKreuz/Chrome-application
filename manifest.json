@@ -1,0 +1,21 @@
+{
+"manifest_version":2,	
+					
+"name": "Напоминалка",
+"version": "1.0",
+"description": "Напоминание каждые 30 минут",
+
+"background" : {
+"scripts" : ["background.js"],
+"persistent" : false
+},
+
+"permissions" : ["notifications"],
+
+"browser_action": {
+"default_title": "Напоминалка",		
+"default_icon": "icon.png"						
+
+}
+		   }
+		   
